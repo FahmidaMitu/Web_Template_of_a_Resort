@@ -1,0 +1,65 @@
+.image {
+  width: 100%;
+  height: 650px;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.hero {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+.viewpackage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  white-space: nowrap;
+  border-radius: 2rem;
+}
+.viewpackage a {
+  text-decoration: none;
+  color: blue;
+  font-family: sans-serif;
+}
+.footer {
+  float: left;
+  align-items: center;
+  background-color: #0033cc;
+  margin: 0;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100px;
+}
+.footer h3 {
+  padding: 30px 20px 10px 20px;
+  color: white;
+}
+.dropdown select {
+  padding: 0.2rem 1rem;
+  margin: 5px;
+}
+.booknow {
+  margin: 5px;
+  padding: 0.2rem 1rem;
+}
+.booknow a {
+  text-decoration: none;
+  color: #0033cc;
+}
+.clear-div {
+  clear: both;
+}

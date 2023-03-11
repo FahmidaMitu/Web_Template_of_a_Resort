@@ -1,0 +1,79 @@
+.div-img {
+  float: left;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding-bottom: 2rem;
+  width: 100%;
+  height: 100px;
+}
+.find span h2 {
+  padding-top: 2rem;
+}
+.imagelight {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  filter: opacity(50%);
+}
+.find {
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.pull {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem 2rem;
+  white-space: nowrap;
+  border-radius: 2rem;
+}
+.imagex {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.imagey {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.imagez {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.div-img span {
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.clear-div {
+  clear: both;
+}
+.view {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+}
+.view a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+}

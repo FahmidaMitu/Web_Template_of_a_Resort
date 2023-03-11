@@ -1,0 +1,122 @@
+.NavbarItems {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
+  width: 100%;
+  height: 120px;
+}
+
+.div-1 {
+  background-color: #0066cc;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: 0 5px 15px 0;
+  width: 104%;
+  height: 40px;
+  border-bottom: solid;
+}
+.div-3 {
+  font-size: 0.8rem;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.tel {
+  color: white;
+  text-decoration: none;
+  padding: 0.07rem 1rem;
+}
+.tel i {
+  padding-right: 10px;
+}
+.mail {
+  color: white;
+  text-decoration: none;
+}
+.mail i {
+  padding-right: 10px;
+}
+.div-4 {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-decoration: none;
+}
+.icon {
+  color: white;
+}
+.login {
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 1rem;
+  border-color: white;
+}
+.login a {
+  color: #0066cc;
+  text-decoration: none;
+}
+.login a i {
+  padding-right: 10px;
+}
+
+.sign {
+  background-color: #0033cc;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  border-radius: 1rem;
+  border-color: #0033cc;
+}
+.sign a {
+  color: white;
+  text-decoration: none;
+}
+.sign a i {
+  padding-right: 10px;
+}
+.div-2 {
+  background-color: #0033cc;
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px 30px 30px;
+  box-sizing: 20px 10px 40px 20px;
+  width: 104%;
+  height: 80px;
+}
+.navbar-logo {
+  font-family: serif;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-bottom: solid orange;
+}
+.logo {
+  color: white;
+  font-size: 0.5rem;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(8, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 0.7rem;
+  padding: 0.7rem 1rem;
+}

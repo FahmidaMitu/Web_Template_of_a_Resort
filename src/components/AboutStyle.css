@@ -1,0 +1,65 @@
+.choose h1 {
+  color: #0033cc;
+  padding: 50px 10px 10px 10px;
+}
+.choose p {
+  font-size: 0.8rem;
+  color: lightslategray;
+  padding-bottom: 10px;
+}
+.div-left {
+  width: 70%;
+  float: left;
+}
+
+.image1 {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 30px;
+}
+
+.image2 {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.div-right {
+  width: 30%;
+  float: left;
+}
+.description {
+  padding: 60px 60px 30px 30px;
+  text-align: left;
+}
+.div-right ul {
+  list-style: none;
+}
+.div-right ul li:before {
+  content: "\2705";
+  padding: 10px 10px 10px 20px;
+}
+.div-right ul li {
+  font-size: 0.8rem;
+  color: lightslategray;
+  padding: 0 20px 20px 10px;
+  text-align: left;
+}
+
+.discover a {
+  background-color: #0033cc;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+}
+.clear-div {
+  clear: both;
+}
